@@ -4,7 +4,7 @@ public class NetworkUtils {
     public static void getConnection() {
         // получаем соединение с сервером
         try {
-            TimeUnit.MILLISECONDS.sleep(1500);
+            TimeUnit.MILLISECONDS.sleep(900);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
